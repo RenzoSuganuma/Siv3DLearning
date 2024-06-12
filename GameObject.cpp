@@ -22,3 +22,16 @@ void GameObject::AddComponent(Component* component) {
 void GameObject::RemoveComponent(Component* component) {
 	_components.remove(component);
 }
+
+
+void GameObject::Init() {
+
+}
+
+void GameObject::Update() {
+
+}
+
+void GameObject::Finalize() {
+
+}

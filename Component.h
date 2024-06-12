@@ -1,5 +1,7 @@
 ﻿#pragma once
 
+#include"GameObject.h"
+
 // コンポーネント
 class Component
 {

@@ -10,7 +10,7 @@ class GameObject
 protected:
 	Transform _transform;
 	String _objectName;
-	Array< Component* > _components;
+	Array<Component*> _components;
 
 	void SetTransform(Transform t);
 	Transform GetTransform();
@@ -24,6 +24,12 @@ public:
 	void AddComponent(Component* component);
 
 	void RemoveComponent(Component* component);
+
+	void Init();
+
+	void Update();
+
+	void Finalize();
 
 	__declspec(property(get = GetTransform, put = SetTransform)) Transform p_Transform;
 };

@@ -3,7 +3,7 @@
 #include"GameObject.h"
 
 // ゲームシーン
-class Scene
+class Level
 {
 protected:
 	Array< GameObject* > _sceneObjects;
@@ -11,13 +11,13 @@ protected:
 
 public:
 	// Default Constructor
-	Scene();
+	Level();
 
-	Scene(String sceneName);
+	Level(String SceneName);
 
 	// ゲームオブジェクトの生成
-	void InstantiateGameObject(GameObject* objectInstance);
+	void InstantiateGameObject(GameObject* ObjectInstance);
 
 	// ゲームオブジェクトの破棄
-	void DeleteGameObject(GameObject* objectInstance);
+	void DeleteGameObject(GameObject* ObjectInstance);
 };

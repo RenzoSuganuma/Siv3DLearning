@@ -4,11 +4,11 @@
 class Component
 {
 protected:
-	virtual void __Initialize();
+	virtual void __Initialize() = 0;
 
-	virtual void __Update();
+	virtual void __Update() = 0;
 
-	virtual void __Finalize();
+	virtual void __Finalize() = 0;
 
 public:
 	// default constructor

@@ -2,7 +2,7 @@
 
 void Main()
 {
-	while (System::Update())
+	while ( System::Update() )
 	{
 	}
 }

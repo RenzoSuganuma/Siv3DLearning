@@ -1,6 +1,12 @@
 ﻿#pragma once
 
-// ゲームシーン
-class Scene
-{
-};
+#include"Object.h"
+
+namespace Sarissa {
+	// ゲームシーン
+	class Scene
+	{
+	public:
+		Array< Object > _sceneObjects;
+	};
+}

@@ -1,17 +1,23 @@
 ﻿#pragma once
 
-#include"Object.h"
+#include"GameObject.h"
 
-namespace Sarissa {
-	// ゲームシーン
-	class Scene
-	{
-	public:
-		String _sceneName;
-		Array< Object > _sceneObjects;
+// ゲームシーン
+class Scene
+{
+protected:
+	Array< GameObject* > _sceneObjects;
+	String _sceneName;
 
-		// Default Constructor
-		Scene();
-		Scene( String sceneName );
-	};
-}
+public:
+	// Default Constructor
+	Scene();
+
+	Scene(String sceneName);
+
+	// ゲームオブジェクトの生成
+	void InstantiateGameObject(GameObject* objectInstance);
+
+	// ゲームオブジェクトの破棄
+	void DeleteGameObject(GameObject* objectInstance);
+};

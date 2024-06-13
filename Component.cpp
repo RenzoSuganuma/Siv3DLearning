@@ -1,7 +1,7 @@
 ﻿#include "stdafx.h"
 #include "Component.h"
 
-using shivext::Component;
+using leonidas::Component;
 
 // default constructor
 Component::Component(){}

@@ -1,7 +1,7 @@
 ﻿#include "stdafx.h"
 #include "TesterComponent.h"
 
-using shivext::TesterComponent;
+using leonidas::TesterComponent;
 
 TesterComponent::TesterComponent(){}
 
@@ -10,7 +10,7 @@ void TesterComponent::__Initialize() {
 }
 
 void TesterComponent::__Update() {
-	Print << U"upd";
+	Print << U"tester";
 }
 
 void TesterComponent::__Finalize() {

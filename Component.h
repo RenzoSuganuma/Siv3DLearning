@@ -1,7 +1,7 @@
 ﻿#pragma once
 
 
-namespace shivext {
+namespace leonidas {
 
 	// コンポーネント
 	class Component

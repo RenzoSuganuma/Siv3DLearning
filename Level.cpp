@@ -1,7 +1,7 @@
 ﻿#include "stdafx.h"
 #include "Level.h"
 
-using shivext::Level;
+using leonidas::Level;
 
 // Default Constructor
 Level::Level() {}

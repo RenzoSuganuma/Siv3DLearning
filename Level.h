@@ -2,7 +2,7 @@
 
 #include"GameObject.h"
 
-namespace shivext {
+namespace leonidas {
 
 	// ゲームシーン
 	class Level

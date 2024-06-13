@@ -3,7 +3,7 @@
 #include"Transform.h"
 #include "Component.h"
 
-namespace shivext {
+namespace leonidas {
 
 	// Siv3D上で構築するゲームオブジェクトの最上基底クラス
 	// 2D,3D共用クラス

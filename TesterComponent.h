@@ -3,9 +3,9 @@
 #include"Component.h"
 #include"Siv3D.hpp"
 
-using shivext::Component;
+using leonidas::Component;
 
-namespace shivext {
+namespace leonidas {
 
 	class TesterComponent : public Component
 	{

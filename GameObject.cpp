@@ -1,8 +1,8 @@
 ﻿#include "stdafx.h"
 #include "GameObject.h"
 
-using shivext::GameObject;
-using shivext::Transform;
+using leonidas::GameObject;
+using leonidas::Transform;
 
 void GameObject::SetTransform(Transform t) {
 	_transform = t;

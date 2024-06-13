@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-namespace shivext {
+namespace leonidas {
 
 	// 座標と回転とスケールを保持するクラス
 	class Transform

@@ -1,7 +1,7 @@
 ﻿#include "stdafx.h"
 #include "Transform.h"
 
-using shivext::Transform;
+using leonidas::Transform;
 
 // Default Constructor
 Transform::Transform() {}

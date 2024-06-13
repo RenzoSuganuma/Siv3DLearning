@@ -1,28 +1,30 @@
 ﻿#pragma once
 
-#include"GameObject.h"
 
-// コンポーネント
-class Component
-{
-protected:
-	virtual void __Initialize() = 0;
+namespace shivext {
 
-	virtual void __Update() = 0;
+	// コンポーネント
+	class Component
+	{
 
-	virtual void __Finalize() = 0;
+	protected:
+		virtual void __Initialize() = 0;
 
-public:
-	// default constructor
-	Component();
+		virtual void __Update() = 0;
 
-	// 初期化処理
-	void Initialize();
+		virtual void __Finalize() = 0;
 
-	// 毎フレーム処理
-	void Update();
+	public:
+		// default constructor
+		Component();
 
-	// 破棄処理
-	void Finalize();
-};
+		// 初期化処理
+		void Initialize();
 
+		// 毎フレーム処理
+		void Update();
+
+		// 破棄処理
+		void Finalize();
+	};
+}

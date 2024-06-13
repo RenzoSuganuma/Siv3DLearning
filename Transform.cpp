@@ -1,6 +1,8 @@
 ﻿#include "stdafx.h"
 #include "Transform.h"
 
+using shivext::Transform;
+
 // Default Constructor
 Transform::Transform() {}
 

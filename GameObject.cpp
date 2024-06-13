@@ -1,6 +1,9 @@
 ﻿#include "stdafx.h"
 #include "GameObject.h"
 
+using shivext::GameObject;
+using shivext::Transform;
+
 void GameObject::SetTransform(Transform t) {
 	_transform = t;
 }
@@ -23,15 +26,20 @@ void GameObject::RemoveComponent(Component* component) {
 	_components.remove(component);
 }
 
-
 void GameObject::Init() {
-
+	for (int i = 0; i < _components.size(); ++i) {
+		_components.at(i)->Initialize();
+	}
 }
 
 void GameObject::Update() {
-
+	for (int i = 0; i < _components.size(); ++i) {
+		_components.at(i)->Update();
+	}
 }
 
 void GameObject::Finalize() {
-
+	for (int i = 0; i < _components.size(); ++i) {
+		_components.at(i)->Finalize();
+	}
 }

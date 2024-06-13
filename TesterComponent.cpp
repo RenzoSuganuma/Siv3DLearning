@@ -1,6 +1,8 @@
 ﻿#include "stdafx.h"
 #include "TesterComponent.h"
 
+using shivext::TesterComponent;
+
 TesterComponent::TesterComponent(){}
 
 void TesterComponent::__Initialize() {

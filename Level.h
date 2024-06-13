@@ -2,22 +2,26 @@
 
 #include"GameObject.h"
 
-// ゲームシーン
-class Level
-{
-protected:
-	Array< GameObject* > _sceneObjects;
-	String _sceneName;
+namespace shivext {
 
-public:
-	// Default Constructor
-	Level();
+	// ゲームシーン
+	class Level
+	{
 
-	Level(String SceneName);
+	protected:
+		Array< GameObject* > _sceneObjects;
+		String _sceneName;
 
-	// ゲームオブジェクトの生成
-	void InstantiateGameObject(GameObject* ObjectInstance);
+	public:
+		// Default Constructor
+		Level();
 
-	// ゲームオブジェクトの破棄
-	void DeleteGameObject(GameObject* ObjectInstance);
-};
+		Level(String SceneName);
+
+		// ゲームオブジェクトの生成
+		void InstantiateGameObject(GameObject* ObjectInstance);
+
+		// ゲームオブジェクトの破棄
+		void DeleteGameObject(GameObject* ObjectInstance);
+	};
+}

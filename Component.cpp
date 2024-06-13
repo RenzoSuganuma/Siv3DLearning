@@ -1,8 +1,11 @@
 ﻿#include "stdafx.h"
 #include "Component.h"
 
+using shivext::Component;
+
 // default constructor
 Component::Component(){}
+
 // 初期化処理
 void Component::Initialize() {
 	__Initialize();

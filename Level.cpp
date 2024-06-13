@@ -1,6 +1,8 @@
 ﻿#include "stdafx.h"
 #include "Level.h"
 
+using shivext::Level;
+
 // Default Constructor
 Level::Level() {}
 

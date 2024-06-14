@@ -116,7 +116,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Component.cpp" />
-    <ClCompile Include="leonidas.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="Level.cpp" />
@@ -334,7 +333,6 @@
   <ItemGroup>
     <ClInclude Include="Component.h" />
     <ClInclude Include="GameObject.h" />
-    <ClInclude Include="leonidas.h" />
     <ClInclude Include="Level.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="TesterComponent.h" />

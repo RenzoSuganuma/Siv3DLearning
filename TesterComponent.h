@@ -1,7 +1,7 @@
 ﻿#pragma once
 
-#include"Component.h"
-#include"Siv3D.hpp"
+#include "Component.h"
+#include "Siv3D.hpp"
 
 using leonidas::Component;
 
@@ -12,9 +12,7 @@ namespace leonidas {
 
 	private:
 		void __Initialize() override;
-
 		void __Update() override;
-
 		void __Finalize() override;
 
 	public:

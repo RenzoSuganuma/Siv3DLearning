@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-#include"Transform.h"
+#include "Transform.h"
 #include "Component.h"
 
 namespace leonidas {
@@ -15,25 +15,16 @@ namespace leonidas {
 		String _objectName;
 		Array<Component*> _components;
 
-		void SetTransform(Transform t);
-		Transform GetTransform();
-
 	public:
 		// default constructor
 		GameObject();
-
 		GameObject(Transform Transform, String Name);
-
+		void SetTransform(Transform t);
+		Transform GetTransform();
 		void AddComponent(Component* component);
-
 		void RemoveComponent(Component* component);
-
 		void Init();
-
 		void Update();
-
-		void Finalize();
-
-		__declspec(property(get = GetTransform, put = SetTransform)) Transform p_Transform;
+		void End();
 	};
 }

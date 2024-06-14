@@ -17,3 +17,21 @@ void Level::InstantiateGameObject(GameObject* ObjectInstance) {
 void Level::DeleteGameObject(GameObject* ObjectInstance) {
 	_sceneObjects.remove(ObjectInstance);
 }
+
+void Level::Init() {
+	for (auto go : _sceneObjects) {
+		go->Init();
+	}
+}
+
+void Level::Update() {
+	for (auto go : _sceneObjects) {
+		go->Update();
+	}
+}
+
+void Level::End() {
+	for (auto go : _sceneObjects) {
+		go->End();
+	}
+}

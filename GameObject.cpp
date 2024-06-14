@@ -38,7 +38,7 @@ void GameObject::Update() {
 	}
 }
 
-void GameObject::Finalize() {
+void GameObject::End() {
 	for (int i = 0; i < _components.size(); ++i) {
 		_components.at(i)->Finalize();
 	}

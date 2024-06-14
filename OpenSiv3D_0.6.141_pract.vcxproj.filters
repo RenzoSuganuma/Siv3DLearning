@@ -159,7 +159,10 @@
     <ClCompile Include="TesterComponent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Constants.cpp">
+    <ClCompile Include="UserGameFoundation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="leonidas.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -842,7 +845,10 @@
     <ClInclude Include="TesterComponent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Constants.h">
+    <ClInclude Include="UserGameFoundation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="leonidas.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

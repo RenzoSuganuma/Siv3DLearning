@@ -14,7 +14,6 @@ namespace leonidas {
 	public:
 		// Default Constructor
 		Transform();
-
 		Transform(s3d::Vec3 Position, s3d::Vec3 Rotation, s3d::Vec3 Scale);
 	};
 }

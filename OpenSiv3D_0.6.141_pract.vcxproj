@@ -333,6 +333,7 @@
   <ItemGroup>
     <ClInclude Include="Component.h" />
     <ClInclude Include="GameObject.h" />
+    <ClInclude Include="leonidas_macros.h" />
     <ClInclude Include="Level.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="TesterComponent.h" />

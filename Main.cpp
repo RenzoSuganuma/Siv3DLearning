@@ -2,14 +2,13 @@
 #include "UserGameFoundation.h"
 #include "functional"
 #include "list"
-
-#define CLOG( message ) Console << U ## message;
+#include "leonidas_macros.h"
 
 UserGameFoundation* game = new UserGameFoundation();
 
 void Main()
 {
-	CLOG("o");
+	CLog("UNNKo");
 
 	game->Setup();
 	game->Validation();

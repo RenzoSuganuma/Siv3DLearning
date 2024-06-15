@@ -162,9 +162,6 @@
     <ClCompile Include="UserGameFoundation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="leonidas.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="App\icon.ico">
@@ -848,7 +845,7 @@
     <ClInclude Include="UserGameFoundation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="leonidas.h">
+    <ClInclude Include="leonidas_macros.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

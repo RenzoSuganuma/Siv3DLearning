@@ -21,6 +21,8 @@ void Main()
 	while (System::Update())
 	{
 		//game->Update();
+
+		game.Instance->Update();
 	}
 
 	//game->End();

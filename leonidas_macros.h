@@ -1,3 +1,4 @@
 ﻿#pragma once
 
-#define CLog( message ) Console << U ## message;
+#define LOG( message ) Console << U ## message;
+#define PRINT( message ) Print << U ## message;

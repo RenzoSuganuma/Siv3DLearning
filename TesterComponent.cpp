@@ -1,18 +1,19 @@
 ﻿#include "stdafx.h"
 #include "TesterComponent.h"
+#include "leonidas_macros.h"
 
 using leonidas::TesterComponent;
 
 TesterComponent::TesterComponent(){}
 
 void TesterComponent::__Initialize() {
-	Print << U"init";
+	PRINT("Initialize");
 }
 
 void TesterComponent::__Update() {
-	Print << U"tester";
+	PRINT("Update");
 }
 
 void TesterComponent::__Finalize() {
-	Print << U"final";
+	PRINT("Finalize");
 }

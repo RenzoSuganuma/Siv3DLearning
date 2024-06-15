@@ -3,21 +3,25 @@
 #include "functional"
 #include "list"
 #include "leonidas_macros.h"
+#include "stdafx.h"
 
-UserGameFoundation* game = new UserGameFoundation();
+Object_Ptr<UserGameFoundation> game;
 
 void Main()
 {
-	CLog("UNNKo");
 
-	game->Setup();
-	game->Validation();
-	game->Init();
+	//game->Setup();
+	//game->Validation();
+	//game->Init();
+
+	game.Instance->Setup();
+	game.Instance->Validation();
+	game.Instance->Init();
 
 	while (System::Update())
 	{
-		game->Update();
+		//game->Update();
 	}
 
-	game->End();
+	//game->End();
 }
